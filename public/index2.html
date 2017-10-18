@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewprt" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title> Novo Capa </title>
+  <link rel="stylesheet" href="../libs/normalize/css/normalize-7.0.0.css">
+  <link rel="stylesheet" href="../libs/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../libs/css/secundario.css">
+</head>
+<body>
+<div id="wrapper">
+      <!-- Menu Lateral -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li class="sidebar-brand">
+            <a href="#">
+                Start Bootstrap
+            </a>
+            </li>
+            <li>
+                <a href="#">Dashboard</a>
+            </li>
+            <li>
+                <a href="#">Shortcuts</a>
+            </li>
+            <li>
+                <a href="#">Overview</a>
+            </li>
+            <li>
+                <a href="#">Events</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Services</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+      <!--Conteudo  -->
+    <div id="page-content-wrapper">
+          <div class="container-fluid">
+              <h2 class="titulo">Novo Capa</h2>
+              <a href="#menu-toggle" class="btn btn-secondary" id="menu-lateral">Menu Lateral</a>
+          </div>
+    </div>
+
+</div>
+
+  <script src="../libs/jquery/js/jquery-3.2.1.min.js"></script>
+  <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+
+  <!-- Menu Lateral -->
+    <script>
+    $("#menu-lateral").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+</body>
+</html>
